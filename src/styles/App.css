@@ -1,0 +1,33 @@
+.post-enter {
+	opacity: 0;
+	transform: translateX(-150px);
+}
+.post-enter-active {
+	transform: translateX(0);
+	opacity: 1;
+	transition: all 0.5 ease;
+}
+.post-exit {
+}
+.post-exit-active {
+	opacity: 0;
+	transform: translateX(-150px);
+	transition: all 0.5 ease;
+}
+
+.page__wrapper {
+	margin-top: 30px;
+	display: flex;
+}
+
+.page {
+	padding: 10px;
+	border: 1px solid teal;
+	cursor: pointer;
+	color: teal;
+}
+
+.page__current {
+	border: 1px solid orange;
+	color: orange;
+}
